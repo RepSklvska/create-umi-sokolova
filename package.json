@@ -8,8 +8,6 @@
 		"start": "umi dev",
 		"build": "umi build",
 		"postinstall": "umi generate tmp",
-		"lint": "eslint src/**/*.{ts,tsx} ./*.{ts,tsx} --fix",
-		"prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
 		"test": "umi-test",
 		"test:coverage": "umi-test --coverage"
 	},
