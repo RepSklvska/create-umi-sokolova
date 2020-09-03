@@ -22,7 +22,7 @@ build/
 ### 可以避免git识别用其他编辑器打开时产生的不必要的文件
 
 # Visual Studio Code
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
