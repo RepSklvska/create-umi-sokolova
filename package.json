@@ -1,4 +1,6 @@
 {
+	"name": "create-umi-sokolova",
+	"version": "0.0.4",
 	"private": true,
 	"scripts": {
 		"name": "create-umi-sokolovska",
@@ -10,17 +12,6 @@
 		"prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
 		"test": "umi-test",
 		"test:coverage": "umi-test --coverage"
-	},
-	"gitHooks": {
-		"pre-commit": "lint-staged"
-	},
-	"lint-staged": {
-		"*.{js,jsx,less,md,json}": [
-			"eslint --fix"
-		],
-		"*.ts?(x)": [
-			"eslint --fix"
-		]
 	},
 	"dependencies": {
 		"@ant-design/pro-layout": "^5.0.12",
