@@ -1,11 +1,12 @@
-import React from "react";
-import styles from "./index.less";
+import { FC, useRef, useState } from 'react';
+import store from '@/stores';
 
-export default () => {
+const HomePage: FC = () => {
+	const [] = useState();
 	return (
 		<div>
-			<h1 className={styles.title}>Page index</h1>
 		</div>
 	);
 };
 
+export default HomePage;
